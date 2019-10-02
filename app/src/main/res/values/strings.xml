@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Assignment 1- World Clock</string>
+    <string-array name="tzId">
+        <item>Australia/Sydney</item>
+        <item>Asia/Shanghai</item>
+        <item>Japan</item>
+        <item>Pacific/Auckland</item>
+        <item>America/Los_Angeles</item>
+        <item>America/New_York</item>
+        <item>Canada/Central</item>
+        <item>Europe/Paris</item>
+        <item>Europe/London</item>
+        <item>Indian/Maldives</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Apia</item>
+
+    </string-array>
+    <string name="hr12">12HR</string>
+    <string name="hr24">24HR</string>
+</resources>

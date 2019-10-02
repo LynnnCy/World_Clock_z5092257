@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="78dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/clock0"
+                layout="@layout/chunk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                android:id="@+id/clock1"
+                layout="@layout/chunk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                android:id="@+id/clock2"
+                layout="@layout/chunk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <include
+                android:id="@+id/clock3"
+                layout="@layout/chunk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <include
+                android:id="@+id/clock4"
+                layout="@layout/chunk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                android:id="@+id/clock5"
+                layout="@layout/chunk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                android:id="@+id/clock6"
+                layout="@layout/chunk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                android:id="@+id/clock7"
+                layout="@layout/chunk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/clock8"
+                layout="@layout/chunk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                android:id="@+id/clock9"
+                layout="@layout/chunk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                android:id="@+id/clock10"
+                layout="@layout/chunk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="413dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="8dp"
+        android:background="#FF9800"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2">
+
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:background="#FF9800"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="136dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/HR12"
+                    android:layout_width="92dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginLeft="35dp"
+                    android:background="#fcffff"
+                    android:text="12HR"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <TextView
+                android:id="@+id/TimeFormat"
+                android:layout_width="129dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="TimeFormat" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="101dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/HR24"
+                    android:layout_width="88dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:background="#fcffff"
+                    android:text="24HR"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
